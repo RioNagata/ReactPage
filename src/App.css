@@ -1,0 +1,131 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#rio {
+  padding-left: 10px;
+}
+
+.maincontent{
+  margin: auto;
+  width: 100%;
+  padding: 30px;
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 16px;
+}
+
+.maincontent2{
+  margin: auto;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.maincontent > p {
+  font-size: 16px;  
+}
+
+.maincontent > * {
+  margin: 50px;
+}
+
+
+.title{
+  text-align: center;
+}
+
+body {
+  height: 100vh;
+}
+
+main {
+  padding-top: 55px;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 300px;
+  padding: 10px;
+}
+
+.pimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 300px;
+  padding: 10px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.skillbox {
+  width: 300px;
+  max-width: 300px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
+  align-items: center;
+}
+
+.pbox {
+  width: 300px;
+  max-width: 300px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.skillbox > p {
+  font-size: 16px;
+}
+
+.navlink {
+  margin-right: 10px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
+
+.backlink {
+  text-align: center;
+}
+
+.smallh1{
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
