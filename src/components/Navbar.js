@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom';
 
-function Navbar(){
+
+function Navbar(props){
     return (
     <>
-        <nav className='navbar navbar-light bg-light'>
+        <nav className= {props.darkmode ? 'dark': ''}>
             <a className="navbar-brand" id='rio'>Rio Nagata</a>
             <ul className="nav justify-content-end">
                 <li className="nav-item navlink">
@@ -16,6 +17,12 @@ function Navbar(){
                     <Link to='/projects'>Project</Link>
                 </li>
             </ul>
+            <div>
+                <label class="switch">
+                    <input type="checkbox" onClick={props.toggleDarkMode}/>
+                    <span class="slider round"></span>
+                </label>
+            </div>
         </nav>
     </>
     );
