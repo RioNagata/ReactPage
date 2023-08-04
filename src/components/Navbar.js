@@ -18,8 +18,8 @@ function Navbar(props){
                 </li>
             </ul>
             <div>
-                <label class="switch">
-                    <input type="checkbox" onClick={props.toggleDarkMode}/>
+                <label class="form-check-label switch">
+                    <input class="form-check-input" type="checkbox" onClick={props.toggleDarkMode}/>
                     <span class="slider round"></span>
                 </label>
             </div>
