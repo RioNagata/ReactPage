@@ -3,9 +3,26 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.page-container{
+  position: relative;
+  min-height: 100vh;
+  background-color: #DCF2F1;
+}
 
 .App-link {
   color: #61dafb;
+}
+
+.navcss{
+  margin-left: 10px;
+}
+
+.neo{
+  display: flex;
+}
+
+.intro{
+  padding: 150px;
 }
 
 #rio {
@@ -40,6 +57,13 @@
 
 .title{
   text-align: center;
+  margin: 10px;
+}
+
+.maintitle{
+  text-align: center;
+  margin: 10px;
+  font-size: 50px;
 }
 
 body {
@@ -54,8 +78,8 @@ main {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 250px;
-  height: 300px;
+  width: 500px;
+  height: 600px;
   padding: 10px;
 }
 
@@ -69,16 +93,19 @@ main {
 }
 
 .skills {
-  display: flex;
+  display: block;
   flex-wrap: wrap;
   text-align: center;
+  background-color: #365486;
+  color: white;
+  padding: 30px;
 }
 
 .skillbox {
   width: 300px;
   max-width: 300px;
   text-align: center;
-  margin-bottom: 30px;
+  margin: 30px;
 }
 
 .projects {
@@ -104,11 +131,10 @@ main {
 }
 
 .footer {
-  position: relative;
-  left: 0;
+  position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: grey;
+  background-color: #0F1035;
   color: white;
   text-align: center;
 }

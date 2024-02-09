@@ -4,8 +4,8 @@ function Contact(){
     <main>
         <div className="maincontent2">
             <h1 className="title">Contact</h1>
-            <p>Email: something@gmail.com</p>
-            <p>Phone: 0123 456 789</p>
+            <p>Email: rionagata15@gmail.com</p>
+            <p>Phone: 0414 010 915</p>
         </div>
     </main>
     </>

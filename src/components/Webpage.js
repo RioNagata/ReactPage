@@ -1,7 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import { useState } from "react";
 import React from "react";
 
 function Webpage(){
@@ -13,11 +12,14 @@ function Webpage(){
 
     return (
     <>
-    <Navbar darkmode = {darkmode} toggleDarkMode = {toggleDarkMode}/>
-    <div className={darkmode ? 'dark': ''}>
-        <Outlet/>
+    <div className="page-container">
+        <Navbar />
+        {/*<Navbar darkmode = {darkmode} toggleDarkMode = {toggleDarkMode}/>*/}
+        <div className={darkmode ? 'dark': ''}>
+            <Outlet/>
+        </div>
+        <Footer />
     </div>
-    <Footer />
     </>
     );
 }
