@@ -31,9 +31,9 @@ function vehicle() {
     ]
     return(
         <>
-        <div className="maincontent">
-            <h1 className="title">Vehicle Booking Page</h1>
-            <div className="slide-container">
+        <h1 className="title">Vehicle Booking Page</h1>
+        <div className="maincontent neo">
+            <div className="slide-container slide">
                 <Slide>
                 {slideImages.map((slideImage, index)=> (
                     <div key={index}>
@@ -44,8 +44,8 @@ function vehicle() {
                 ))} 
                 </Slide>
             </div>
-            <p>This webpage consists of a Booking feature and CRUD for users. The languages used are HTML、CSS, Laravel(PHP), and MySQL. </p>
             <div className='smallh1'>
+            <p>This webpage consists of a Booking feature and CRUD for users. The languages used are HTML、CSS, Laravel(PHP), and MySQL. </p>
                 <div className='smallh1'>
                     <p>Project Type: Website</p>
                 </div>
@@ -56,8 +56,8 @@ function vehicle() {
                     <p>Link: <a href='https://github.com/RioNagata/Laravel-Web' target="_blank">Github Link</a></p>
                 </div>
             </div>
-            <p className='backlink'><a href='/projects'>Back to Projects</a></p>
         </div>
+        <p className='backlink'><a href='/projects'>Back to Projects</a></p>
         </>
     );
 }

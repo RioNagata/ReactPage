@@ -4,25 +4,19 @@ import { Link } from 'react-router-dom';
 function Navbar(props){
     return (
     <>
-        <nav className='navbar navbar-expand-lg navbar-light bg-light navcss'>
-            <ul className="nav justify-content-end">
+        <nav className="navbar navbar-light background navcss">
+            <a className="navbar-brand pleft" href="#">Rio Nagata</a>
+            <ul className="nav justify-content-end ">
                 <li className="nav-item navlink">
-                    <Link to='/'>Home</Link> 
+                    <Link to='/' className='nav-link'>Home</Link> 
                 </li>
                 <li className="nav-item navlink">
-                    <Link to='/contact'>Contact</Link>
+                    <Link to='/projects' className='nav-link'>Project</Link>
                 </li>
                 <li className="nav-item navlink">
-                    <Link to='/projects'>Project</Link>
+                    <Link to='/contact' className='nav-link'>Contact</Link>
                 </li>
             </ul>
-             
- {/*}          <div>
-                <label class="form-check-label switch">
-                    <input class="form-check-input" type="checkbox" onClick={props.toggleDarkMode}/>
-                    <span class="slider round"></span>
-                </label>
-    </div>*/}
         </nav>
     </>
     );

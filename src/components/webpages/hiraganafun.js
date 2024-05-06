@@ -31,9 +31,9 @@ function hiraganafun() {
     ]
     return(
         <>
-        <div className="maincontent">
-            <h1 className="title">Hiragana Fun</h1>
-            <div className="slide-container">
+        <h1 className="title">Hiragana Fun</h1>
+        <div className="maincontent neo">
+            <div className="slide-container slide">
                 <Slide>
                 {slideImages.map((slideImage, index)=> (
                     <div key={index}>
@@ -44,8 +44,8 @@ function hiraganafun() {
                 ))} 
                 </Slide>
             </div>
-            <p>This is an iOS application that my team member and I created during my university internship. I was the leading developer for this team. This app has no source code since the company has full authority over this application.</p>
             <div className='smallh1'>
+                <p>This is an iOS application that my team member and I created during my university internship. I was the leading developer for this team. This app has no source code since the company has full authority over this application.</p>
                 <div className='smallh1'>
                     <p>Project Type: iOS App</p>
                 </div>
@@ -53,8 +53,8 @@ function hiraganafun() {
                     <p>Date Created: March 2023</p>
                 </div>
             </div>
-            <p className='backlink'><a href='/projects'>Back to Projects</a></p>
         </div>
+        <p className='backlink'><a href='/projects'>Back to Projects</a></p>
         </>
     );
 }

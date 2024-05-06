@@ -26,9 +26,9 @@ function chat() {
     ]
     return(
         <>
-        <div className="maincontent">
-            <h1 className="title">Chat Channel</h1>
-            <div className="slide-container">
+        <h1 className="title">Chat Channel</h1>
+        <div className="maincontent neo">
+            <div className="slide-container slide">
                 <Slide>
                 {slideImages.map((slideImage, index)=> (
                     <div key={index}>
@@ -39,8 +39,8 @@ function chat() {
                 ))} 
                 </Slide>
             </div>
-            <p>This webpage has a login form, chat feature, and CRUD for users. The languages used are HTML, CSS, Angular(TypeScript), Node.js(JavaScript), and MongoDB.</p>
             <div className='smallh1'>
+            <p>This webpage has a login form, chat feature, and CRUD for users. The languages used are HTML, CSS, Angular(TypeScript), Node.js(JavaScript), and MongoDB.</p>
                 <div className='smallh1'>
                     <p>Project Type: Website</p>
                 </div>
@@ -51,8 +51,8 @@ function chat() {
                     <p>Link: <a href='https://github.com/RioNagata/website' target="_blank">Github Link</a></p>
                 </div>
             </div>
-            <p className='backlink'><a href='/projects'>Back to Projects</a></p>
         </div>
+        <p className='backlink'><a href='/projects'>Back to Projects</a></p>
         </>
     );
 }

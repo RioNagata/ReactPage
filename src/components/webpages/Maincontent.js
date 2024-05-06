@@ -41,15 +41,14 @@ function Maincontent() {
         <>
             <main>
             <h1 className='maintitle'>Rio Nagata</h1>
-                <div className="maincontent">
+                <div className="maincontent2">
                     <div className='neo'>
                         <img className='image' src={rio} alt='Rio' />
                         <div className='intro'>
                             <h3 className='title'>About Me</h3>
-                            <h4>Hello. My name is Rio Nagata. I am a 21-year-old fresh graduate with 7 years of school and self-teach programming experience.
+                            <h4>Hello. My name is Rio Nagata. I am a 22-year-old, have 7 years of school and self-teach programming experience.
                                 Since junior high school, I have been interested in programming and have created various websites and software individually and in teams.
-                                I am Japanese, have lived in Australia for seven years, and can speak English at a native level.
-                                I dream of improving my programming skills and creating software/websites.</h4>
+                                I am Japanese, have lived in Australia for seven years, and can speak English, Japanese, and Tagalog at a native level.</h4>
                         </div>
                     </div>
                     <div className='skills'>
@@ -86,8 +85,6 @@ function Maincontent() {
                             </div>
                         </div>
                     </div>
-
-                    <h5 className='smallh1'>This website is created by using React</h5>
                 </div>
             </main>
         </>

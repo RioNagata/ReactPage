@@ -15,9 +15,10 @@ function Webpage(){
     <div className="page-container">
         <Navbar />
         {/*<Navbar darkmode = {darkmode} toggleDarkMode = {toggleDarkMode}/>*/}
-        <div className={darkmode ? 'dark': ''}>
+        <div className='pagecontent'>
             <Outlet/>
         </div>
+        <br></br>
         <Footer />
     </div>
     </>

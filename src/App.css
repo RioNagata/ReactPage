@@ -6,19 +6,24 @@
 .page-container{
   position: relative;
   min-height: 100vh;
-  background-color: #DCF2F1;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-.navcss{
+
+.pleft{
   margin-left: 10px;
+}
+
+.navcss{
+  background-color: #DCF2F1;
 }
 
 .neo{
   display: flex;
+  
 }
 
 .intro{
@@ -78,9 +83,10 @@ main {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 500px;
-  height: 600px;
+  width: 300px;
+  height: 300px;
   padding: 10px;
+  object-fit: fill;
 }
 
 .pimage {
@@ -93,12 +99,14 @@ main {
 }
 
 .skills {
-  display: block;
-  flex-wrap: wrap;
+  padding-top: 50px;
+  margin: auto;
   text-align: center;
-  background-color: #365486;
+  width: 100%;
+  font-family: 'REM', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
   color: white;
-  padding: 30px;
 }
 
 .skillbox {
@@ -131,10 +139,52 @@ main {
 }
 
 .footer {
-  position: absolute;
+  display: flex;
+  position: relative;
+  left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #0F1035;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-family: 'REM', sans-serif;
+  font-family: 'Roboto', sans-serif;  
+}
+
+.footers {
+  margin-top: 50px;
+  padding-bottom: 16px;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
+
+.footerlinks{
+  padding: 25px;
+}
+
+li {
+  list-style-type: none;
+  text-align: left;
+}
+
+.footertitle{
+  font-size: 24px;
+}
+
+.footertitle{
+  font-size: 24px;
+}
+
+.endfooter {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: black;
   color: white;
   text-align: center;
 }
@@ -145,6 +195,7 @@ main {
 
 .smallh1{
   text-align: center;
+  height: auto;
 }
 
 .switch {
@@ -158,6 +209,11 @@ main {
   opacity: 0;
   width: 0;
   height: 0;
+}
+
+.slide{
+  width: 50%;
+  object-fit: contain;
 }
 
 .slider {
