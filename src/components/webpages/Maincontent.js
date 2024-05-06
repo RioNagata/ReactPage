@@ -43,7 +43,7 @@ function Maincontent() {
             <h1 className='maintitle'>Rio Nagata</h1>
                 <div className="maincontent2">
                     <div className='neo'>
-                        <img className='image' src={rio} alt='Rio' />
+                        <img className='rioimage' src={rio} alt='Rio' />
                         <div className='intro'>
                             <h3 className='title'>About Me</h3>
                             <h4>Hello. My name is Rio Nagata. I am a 22-year-old, have 7 years of school and self-teach programming experience.
@@ -59,7 +59,7 @@ function Maincontent() {
                         </div>
                     </div>
 
-                    <div>
+                    <div className='otherskills'>
                         <div>
                             <h2 className='title'>Other Skills</h2>
                             <h3 className='title'>These are the skills that are not related to programming.</h3>
