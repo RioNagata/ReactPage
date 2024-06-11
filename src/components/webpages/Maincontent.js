@@ -46,7 +46,7 @@ function Maincontent() {
                         <img className='rioimage' src={rio} alt='Rio' />
                         <div className='intro'>
                             <h3 className='title'>About Me</h3>
-                            <h4>Hello. My name is Rio Nagata. I am a 22-year-old, have 7 years of school and self-teach programming experience.
+                            <h4>Hello. My name is Rio Nagata. I am a 22-year-old, have 3 years of school and self-teach programming experience.
                                 Since junior high school, I have been interested in programming and have created various websites and software individually and in teams.
                                 I am Japanese, have lived in Australia for seven years, and can speak English, Japanese, and Tagalog at a native level.</h4>
                         </div>
