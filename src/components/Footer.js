@@ -29,7 +29,8 @@ function Footer(){
                 </div>
             </div>
             <div>
-                <p>&#169; Rio Nagata. All rights Reserved.</p>
+                <p>&#169; Rio Nagata. <script type="text/javascript">document.write(new Date().getFullYear());
+</script> All rights Reserved.</p>
             </div>
         </footer>
     </>

@@ -1,7 +1,4 @@
-import rio from '../../image/profile.jpeg'
-import SkillDiv from './skilldiv';
-
-function Maincontent() {
+function Test() {
     const skilllists = [
         {
             skill: 'HTML',
@@ -14,7 +11,7 @@ function Maincontent() {
             rating: '4',
         },
         {
-            skill: 'Javascript(Node, React)',
+            skill: 'Javascript(Node, React, Next)',
             image: 'js.png',
             rating: '4',
         },
@@ -30,7 +27,7 @@ function Maincontent() {
         },
         {
             skill: 'Git(Version control)',
-            image: 'git.png',
+            image: '',
             rating: '3',
         },
         {
@@ -44,52 +41,6 @@ function Maincontent() {
     });
     return (
         <>
-        <div className="main-content">
-            <div className="container">
-                <h1 className="main-title">Rio Nagata</h1>
-
-                <div className="about-section card">
-                <img className="profile-image" src={rio} alt="Rio" />
-                <div className="intro">
-                    <h3 className="section-title">About Me</h3>
-                    <p>
-                    I am a 24-year-old with 3 years of school and self-taught programming experience.
-                    Since junior high school, I’ve been passionate about building websites and software
-                    both individually and with teams. I'm Japanese, have lived in Australia for seven
-                    years, and speak English, Japanese, and Tagalog natively.
-                    </p>
-                </div>
-                </div>
-
-                <div className="skills-section card">
-                <h2 className="section-title">Programming Skills</h2>
-                <p>
-                    These are the programming-related skills I’ve learned and used, rated from 1-5.
-                </p>
-                <div className="skills-list">{skillElements}</div>
-                </div>
-
-                <div className="other-skills-section card">
-                <h2 className="section-title">Other Skills</h2>
-                <p>Skills outside programming that reflect my soft and professional capabilities.</p>
-                <div className="other-skills-list">
-                    {[
-                    'Communication',
-                    'Working With Teams',
-                    'Problem Solving',
-                    'Fast Learner',
-                    'Eager to Learn',
-                    'Japanese and Tagalog',
-                    ].map((skill) => (
-                    <div className="skill-tag" key={skill}>
-                        {skill}
-                    </div>
-                    ))}
-                </div>
-                </div>
-            </div>
-            </div>
-        {/*
         <div className="maincontent2">
             <div className='width'>
                 <h1 className='maintitle'>Rio Nagata</h1>
@@ -142,7 +93,6 @@ function Maincontent() {
                 </div>
             </div>
         </div>
-        */}
         </>
     );
 }
