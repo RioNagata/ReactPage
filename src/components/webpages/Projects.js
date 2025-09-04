@@ -29,6 +29,12 @@ function Projects(){
                         <h4>ChatChannel</h4>
                     </Link>
                 </div>
+                <div className='pbox'>
+                    <Link to='/gamereport'>
+                        <img className='pimage' src={chat} alt="Game Report"/>
+                        <h4>Game Report</h4>
+                    </Link>
+                </div>
             </div>
         </div>
     </>

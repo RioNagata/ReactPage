@@ -15,6 +15,7 @@ function Footer(){
                         <li><a href="/hiraganafun">Hiragana Fun</a></li>
                         <li><a href="/vehicle">Vehicle</a></li>
                         <li><a href="/chat">ChatChannel</a></li>
+                        <li><a href="/gamereport">Game Report</a></li>
                     </ul>
                 </div>
                 <div className="footerlinks">

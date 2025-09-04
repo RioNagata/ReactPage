@@ -5,6 +5,7 @@ import Contact from './components/webpages/Contact';
 import Webpage from './components/Webpage';
 import Vehicle from './components/webpages/vehicle';
 import Hiraganafun from './components/webpages/hiraganafun';
+import GameReport from './components/webpages/gamereport';
 import Chat from './components/webpages/chat';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
@@ -23,6 +24,7 @@ function App() {
               <Route path="hiraganafun" element={<Hiraganafun />} />
               <Route path="vehicle" element={<Vehicle />} />
               <Route path="chat" element={<Chat />} />
+              <Route path="gamereport" element={<GameReport />} />
             </Route>
           </Routes>
         </BrowserRouter>
