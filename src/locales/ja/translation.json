@@ -1,0 +1,68 @@
+{
+    "brand": "永田 里大",
+    "nav": { "home": "ホーム", "projects": "プロジェクト", "contact": "お問い合わせ" },
+    "home": {
+      "title": "永田 里大",
+      "aboutTitle": "自己紹介",
+      "aboutText": "私は24歳で、大学と独学で３年間プログラミングを学んできました。中学の頃から個人やチームでウェブサイトやソフトウェアを作ることに情熱を持ってきました。日本出身で、7年間オーストラリアに住み、英語、日本語、タガログ語をネイティブレベルで話せます。",
+      "programmingSkills": "プログラミングスキル",
+      "programmingSkillsDesc": "これまでに学び、使ったプログラミングスキルです。1〜5で評価しています。",
+      "otherSkills": "その他のスキル",
+      "otherSkillsDesc": "プログラミング以外のソフトスキルや専門的な能力です。"
+    },
+    "chat": {
+      "title": "チャットチャンネル",
+      "description": "このウェブページにはログインフォーム、チャット機能、ユーザーのCRUDがあります。使用言語は HTML、CSS、Angular(TypeScript)、Node.js(JavaScript)、MongoDB です。",
+      "type": "プロジェクトタイプ: ウェブサイト",
+      "date": "作成日: 2023年3月",
+      "linkText": "GitHubリンク",
+      "back": "プロジェクト一覧に戻る"
+    },
+    "gamereport": {
+        "title": "Game Report",
+        "description": "このウェブサイトは、Gravity Forms に送信されたエントリーを使用して、表やグラフでレポートを表示し、エントリーも表示するレポートサイトです。",
+        "type": "プロジェクトタイプ: ウェブサイト (HTML, CSS, PHP, JavaScript, Gravity Form データベース)",
+        "date": "作成日: 2025年9月",
+        "back": "プロジェクト一覧に戻る"
+    },
+    "hiraganafun": {
+        "title": "Hiragana Fun",
+        "description": "これは、私とチームメンバーが大学のインターンシップ中に作成したiOSアプリケーションです。私はこのチームのリード開発者でした。このアプリのソースコードは、会社が完全に権限を持っているため公開されていません。",
+        "type": "プロジェクトタイプ: iOSアプリ",
+        "date": "作成日: 2023年3月",
+        "back": "プロジェクト一覧に戻る"
+    },
+    "vehicle": {
+        "title": "車両予約ページ",
+        "description": "このウェブページには、予約機能とユーザーのCRUD機能があります。使用言語は HTML、CSS、Laravel (PHP)、MySQL です。",
+        "type": "プロジェクトタイプ: ウェブサイト",
+        "date": "作成日: 2023年3月",
+        "link": "ギットハブリンク",
+        "back": "プロジェクト一覧に戻る"
+    },
+    "contact": {
+      "title": "連絡先",
+      "email": "メール: rionagata15@gmail.com",
+      "phone": "電話番号: 0414 010 915"
+    },
+    "footer": {
+      "menu": "メインメニュー",
+      "projects": "プロジェクト",
+      "hiragana": "Hiragana Fun",
+      "vehicle": "車両予約",
+      "chat": "チャットチャンネル",
+      "gamereport": "Game Report",
+      "about": "私について",
+      "contacts": "連絡先",
+      "rights": "All Rights Reserved."
+    },
+    "projects": {
+      "title": "プロジェクト",
+      "subtitle": "私のポートフォリオへようこそ。ここでは私の作品の一部をご覧いただけます。プロジェクトを見て、私の活動についてもっと知ってください。",
+      "hiragana": "ひらがなファン",
+      "vehicle": "車両予約ページ",
+      "chat": "チャットチャンネル",
+      "gamereport": "ゲームレポート"
+    }
+  }
+  

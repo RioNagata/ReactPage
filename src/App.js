@@ -9,6 +9,7 @@ import GameReport from './components/webpages/gamereport';
 import Chat from './components/webpages/chat';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
+import "./i18n"; // add this line
 import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {

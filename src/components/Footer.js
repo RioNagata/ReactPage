@@ -1,40 +1,49 @@
-function Footer(){
-    return (
-    <>
-        <footer className="footers">
-        <div className="footer">
-                <div className="footerlinks">
-                    <ul>
-                        <li className="footertitle"><a href="/">Main Menu</a></li>
-                    </ul>
-                </div>
-                <div className="footerlinks">
-                    <ul>
-                        <li className="footertitle"><a href='/projects'>Projects</a></li>
-                        <br></br>
-                        <li><a href="/hiraganafun">Hiragana Fun</a></li>
-                        <li><a href="/vehicle">Vehicle</a></li>
-                        <li><a href="/chat">ChatChannel</a></li>
-                        <li><a href="/gamereport">Game Report</a></li>
-                    </ul>
-                </div>
-                <div className="footerlinks">
-                    <ul>
-                        <li className="footertitle"><a href='/contact'>About Me</a></li>
-                    </ul>
-                </div>
-                <div className="footerlinks">
-                    <ul>
-                        <li className="footertitle"><a href='/contact'>Contacts</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div>
-                <p>&#169; 2025 Rio Nagata. <script type="text/javascript">document.write(new Date().getFullYear());
-</script> All rights Reserved.</p>
-            </div>
-        </footer>
-    </>
-    );
+import { useTranslation } from "react-i18next";
+
+function Footer() {
+  const { t } = useTranslation();
+  const year = new Date().getFullYear();
+
+  return (
+    <footer className="footer">
+      <div className="footer-grid">
+        <div>
+          <h5 className="footertitle">{t("footer.menu")}</h5>
+          <ul>
+            <li><a href="/">{t("footer.menu")}</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5 className="footertitle">{t("footer.projects")}</h5>
+          <ul>
+            <li><a href="/hiraganafun">{t("footer.hiragana")}</a></li>
+            <li><a href="/vehicle">{t("footer.vehicle")}</a></li>
+            <li><a href="/chat">{t("footer.chat")}</a></li>
+            <li><a href="/gamereport">{t("footer.gamereport")}</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5 className="footertitle">{t("footer.about")}</h5>
+          <ul>
+            <li><a href="/contact">{t("footer.about")}</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5 className="footertitle">{t("footer.contacts")}</h5>
+          <ul>
+            <li><a href="/contact">{t("footer.contacts")}</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="footer-bottom">
+        <p>&#169; {year} Rio Nagata. {t("footer.rights")}</p>
+      </div>
+    </footer>
+  );
 }
+
 export default Footer;

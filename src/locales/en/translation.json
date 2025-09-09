@@ -1,0 +1,68 @@
+{
+    "brand": "Rio Nagata",
+    "nav": { "home": "Home", "projects": "Projects", "contact": "Contact" },
+    "home": {
+      "title": "Rio Nagata",
+      "aboutTitle": "About Me",
+      "aboutText": "I am a 24-year-old with 3 years of school and self-taught programming experience. Since junior high school, I’ve been passionate about building websites and software both individually and with teams. I'm Japanese, have lived in Australia for seven years, and speak English, Japanese, and Tagalog natively.",
+      "programmingSkills": "Programming Skills",
+      "programmingSkillsDesc": "These are the programming-related skills I’ve learned and used, rated from 1-5.",
+      "otherSkills": "Other Skills",
+      "otherSkillsDesc": "Skills outside programming that reflect my soft and professional capabilities."
+    },
+    "chat": {
+      "title": "Chat Channel",
+      "description": "This webpage has a login form, chat feature, and CRUD for users. The languages used are HTML, CSS, Angular(TypeScript), Node.js(JavaScript), and MongoDB.",
+      "type": "Project Type: Website",
+      "date": "Date Created: March 2023",
+      "linkText": "Github Link",
+      "back": "Back to Projects"
+    },
+    "gamereport": {
+        "title": "Game Report",
+        "description": "This website is a report website using entries submitted to Gravity Forms to display reports on table, chart, and also display entries.",
+        "type": "Project Type: Website (HTML, CSS, PHP, JavaScript, Gravity Form Database)",
+        "date": "Date Created: September 2025",
+        "back": "Back to Projects"
+    },
+    "hiraganafun": {
+        "title": "Hiragana Fun",
+        "description": "This is an iOS application that my team member and I created during my university internship. I was the leading developer for this team. This app has no source code since the company has full authority over this application.",
+        "type": "Project Type: iOS App",
+        "date": "Date Created: March 2023",
+        "back": "Back to Projects"
+    },
+    "vehicle": {
+        "title": "Vehicle Booking Page",
+        "description": "This webpage consists of a Booking feature and CRUD for users. The languages used are HTML, CSS, Laravel (PHP), and MySQL.",
+        "type": "Project Type: Website",
+        "date": "Date Created: March 2023",
+        "link": "Github Link",
+        "back": "Back to Projects"
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "Email: rionagata15@gmail.com",
+      "phone": "Phone: 0414 010 915"
+    },
+    "footer": {
+      "menu": "Main Menu",
+      "projects": "Projects",
+      "hiragana": "Hiragana Fun",
+      "vehicle": "Vehicle",
+      "chat": "Chat Channel",
+      "gamereport": "Game Report",
+      "about": "About Me",
+      "contacts": "Contacts",
+      "rights": "All rights reserved."
+    },
+    "projects": {
+      "title": "Projects",
+      "subtitle": "Welcome to my portfolio. Here you’ll find a selection of my work. Explore my projects to learn more about what I do.",
+      "hiragana": "Hiragana Fun",
+      "vehicle": "Vehicle Booking Page",
+      "chat": "ChatChannel",
+      "gamereport": "Game Report"
+    }
+  }
+  

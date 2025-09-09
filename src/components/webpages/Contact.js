@@ -1,14 +1,19 @@
-function Contact(){
-    return (
+import { useTranslation } from "react-i18next";
+
+function Contact() {
+  const { t } = useTranslation();
+
+  return (
     <>
-    <main>
+      <main>
         <div className="maincontent2">
-            <h1 className="title">Contact</h1>
-            <p>Email: rionagata15@gmail.com</p>
-            <p>Phone: 0414 010 915</p>
+          <h1 className="title">{t("contact.title")}</h1>
+          <p>{t("contact.email")}</p>
+          <p>{t("contact.phone")}</p>
         </div>
-    </main>
+      </main>
     </>
-    );
+  );
 }
+
 export default Contact;

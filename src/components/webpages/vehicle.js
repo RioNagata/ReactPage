@@ -1,64 +1,58 @@
-import { Slide } from 'react-slideshow-image';
-import vehicle1 from '../../image/vehicle1.png'
-import vehicle2 from '../../image/vehicle2.png'
-import vehicle3 from '../../image/vehicle3.png'
-import vehicle4 from '../../image/vehicle4.png'
-import vehicle5 from '../../image/vehicle5.png'
-import 'react-slideshow-image/dist/styles.css'
+import { Slide } from "react-slideshow-image";
+import { useTranslation } from "react-i18next";
+import vehicle1 from "../../image/vehicle1.png";
+import vehicle2 from "../../image/vehicle2.png";
+import vehicle3 from "../../image/vehicle3.png";
+import vehicle4 from "../../image/vehicle4.png";
+import vehicle5 from "../../image/vehicle5.png";
+import "react-slideshow-image/dist/styles.css";
 
-function vehicle() {
-    const slideImages = [
-        {
-            url: vehicle1,
-            caption: 'Image 1'
-        },
-        {
-            url: vehicle2,
-            caption: 'Image 2'
-        },
-        {
-            url: vehicle3,
-            caption: 'Image 3'
-        },
-        {
-            url: vehicle4,
-            caption: 'Image 4'
-        },
-        {
-            url: vehicle5,
-            caption: 'Image 5'
-        },
-    ]
-    return(
-        <>
-        <h1 className="title">Vehicle Booking Page</h1>
-        <div className="maincontent neo">
-            <div className="slide-container slide">
-                <Slide>
-                {slideImages.map((slideImage, index)=> (
-                    <div key={index}>
-                        <div>
-                            <img className='image' src={slideImage.url} />
-                        </div>
-                    </div>
-                ))} 
-                </Slide>
-            </div>
-            <div className='smallh1'>
-            <p>This webpage consists of a Booking feature and CRUD for users. The languages used are HTML、CSS, Laravel(PHP), and MySQL. </p>
-                <div className='smallh1'>
-                    <p>Project Type: Website</p>
-                </div>
-                <div className='smallh1'>
-                    <p>Date Created: March 2023</p>
-                </div>
-                <div className='smallh1'>
-                    <p>Link: <a href='https://github.com/RioNagata/Laravel-Web' target="_blank">Github Link</a></p>
-                </div>
-            </div>
+function Vehicle() {
+  const { t } = useTranslation();
+
+  const slideImages = [vehicle1, vehicle2, vehicle3, vehicle4, vehicle5];
+
+  return (
+    <>
+      <h1 className="title">{t("vehicle.title")}</h1>
+      <div className="maincontent neo">
+        <div className="slide-container2 slide">
+          <Slide>
+            {slideImages.map((url, index) => (
+              <div key={index}>
+                <img className="image" src={url} alt={`vehicle-${index + 1}`} />
+              </div>
+            ))}
+          </Slide>
         </div>
-        <p className='backlink'><a href='/projects'>Back to Projects</a></p>
-        </>
-    );
+
+        <div className="smallh1">
+          <p>{t("vehicle.description")}</p>
+          <div className="smallh1">
+            <p>{t("vehicle.type")}</p>
+          </div>
+          <div className="smallh1">
+            <p>{t("vehicle.date")}</p>
+          </div>
+          <div className="smallh1">
+            <p>
+              Link:{" "}
+              <a
+                href="https://github.com/RioNagata/Laravel-Web"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {t("vehicle.link")}
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <p className="backlink">
+        <a href="/projects">{t("vehicle.back")}</a>
+      </p>
+    </>
+  );
 }
-export default vehicle
+
+export default Vehicle;

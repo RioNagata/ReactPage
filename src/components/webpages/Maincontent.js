@@ -1,149 +1,54 @@
-import rio from '../../image/profile.jpeg'
-import SkillDiv from './skilldiv';
+import { useTranslation } from "react-i18next";
+import rio from "../../image/profile.jpeg";
+import SkillDiv from "./skilldiv";
 
 function Maincontent() {
-    const skilllists = [
-        {
-            skill: 'HTML',
-            image: 'html.png',
-            rating: '5',
-        },
-        {
-            skill: 'CSS',
-            image: 'css-3.png',
-            rating: '4',
-        },
-        {
-            skill: 'Javascript(Node, React)',
-            image: 'js.png',
-            rating: '4',
-        },
-        {
-            skill: 'Database Related(MySQL, MongoDB)',
-            image: 'mysql1.png',
-            rating: '3',
-        },
-        {
-            skill: 'Swift(Xcode)',
-            image: 'swift.png',
-            rating: '3',
-        },
-        {
-            skill: 'Git(Version control)',
-            image: 'git.png',
-            rating: '3',
-        },
-        {
-            skill: 'PHP',
-            image: 'php.png',
-            rating: '4',
-        },
-    ]
-    const skillElements = skilllists.map(skill =>{
-        return <SkillDiv skill={skill.skill} image={skill.image} rating={skill.rating}/>
-    });
-    return (
-        <>
-        <div className="main-content">
-            <div className="container">
-                <h1 className="main-title">Rio Nagata</h1>
+  const { t } = useTranslation();
 
-                <div className="about-section card">
-                <img className="profile-image" src={rio} alt="Rio" />
-                <div className="intro">
-                    <h3 className="section-title">About Me</h3>
-                    <p>
-                    I am a 24-year-old with 3 years of school and self-taught programming experience.
-                    Since junior high school, I’ve been passionate about building websites and software
-                    both individually and with teams. I'm Japanese, have lived in Australia for seven
-                    years, and speak English, Japanese, and Tagalog natively.
-                    </p>
-                </div>
-                </div>
+  const skilllists = [
+    { skill: "HTML", image: "html.png", rating: "5" },
+    { skill: "CSS", image: "css-3.png", rating: "4" },
+    { skill: "Javascript(Node, React)", image: "js.png", rating: "4" },
+    { skill: "Database Related(MySQL, MongoDB)", image: "mysql1.png", rating: "3" },
+    { skill: "Swift(Xcode)", image: "swift.png", rating: "3" },
+    { skill: "Git(Version control)", image: "git.png", rating: "3" },
+    { skill: "PHP", image: "php.png", rating: "4" }
+  ];
 
-                <div className="skills-section card">
-                <h2 className="section-title">Programming Skills</h2>
-                <p>
-                    These are the programming-related skills I’ve learned and used, rated from 1-5.
-                </p>
-                <div className="skills-list">{skillElements}</div>
-                </div>
+  const skillElements = skilllists.map(skill => (
+    <SkillDiv
+      key={skill.skill}
+      skill={skill.skill}
+      image={skill.image}
+      rating={skill.rating}
+    />
+  ));
 
-                <div className="other-skills-section card">
-                <h2 className="section-title">Other Skills</h2>
-                <p>Skills outside programming that reflect my soft and professional capabilities.</p>
-                <div className="other-skills-list">
-                    {[
-                    'Communication',
-                    'Working With Teams',
-                    'Problem Solving',
-                    'Fast Learner',
-                    'Eager to Learn',
-                    'Japanese and Tagalog',
-                    ].map((skill) => (
-                    <div className="skill-tag" key={skill}>
-                        {skill}
-                    </div>
-                    ))}
-                </div>
-                </div>
-            </div>
-            </div>
-        {/*
-        <div className="maincontent2">
-            <div className='width'>
-                <h1 className='maintitle'>Rio Nagata</h1>
-                <div className='neo'>
-                    <img className='rioimage' src={rio} alt='Rio' />
-                    <div className='intro'>
-                        <h3 className='title'>About Me</h3>
-                        <p>I am a 22-year-old, have 3 years of school and self-teach programming experience.
-                            Since junior high school, I have been interested in programming and have created various websites and software individually and in teams.
-                            I am Japanese, have lived in Australia for seven years, and can speak English, Japanese, and Tagalog at a native level.</p>
-                    </div>
-                </div>
-                <div className='black'>
-                    <div className='skills'>
-                        <h2 className='title'>Programming Skills</h2>
-                        <p>These are the programming-related skills that I have learned/used before. They are rated from 1-5, 5 being experienced and 1 being not.</p>
-                        <div className='neo'>
-                            {skillElements}
-                        </div>
-                    </div>
-                </div>
-                
-                <div className='white'>
-                    <div className='otherskills'>
-                        <div>
-                            <h2 className='title'>Other Skills</h2>
-                            <h3 className='title'>These are the skills that are not related to programming.</h3>
-                        </div>
-                        <div className='neo'>
-                            <div className='skillbox'>
-                                <p>Communication</p>
-                            </div>
-                            <div className='skillbox'>
-                                <p>Working With Teams</p>
-                            </div>
-                            <div className='skillbox'>
-                                <p>Problem Solving</p>
-                            </div>
-                            <div className='skillbox'>
-                                <p>Fast Learner</p>
-                            </div>
-                            <div className='skillbox'>
-                                <p>Eager to Learn</p>
-                            </div>
-                            <div className='skillbox'>
-                                <p>Japanese and Tagalog</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  return (
+    <div className="main-content">
+      <div className="container">
+        <h1 className="main-title">{t("home.title")}</h1>
+
+        <div className="about-section card">
+          <img className="profile-image" src={rio} alt="Rio" />
+          <div className="intro">
+            <h3 className="section-title">{t("home.aboutTitle")}</h3>
+            <p>{t("home.aboutText")}</p>
+          </div>
         </div>
-        */}
-        </>
-    );
+
+        <div className="skills-section card">
+          <h2 className="section-title">{t("home.programmingSkills")}</h2>
+          <p>{t("home.programmingSkillsDesc")}</p>
+          
+          <div className="skills-grid">
+            {skillElements}
+          </div>
+        </div>
+
+      </div>
+    </div>
+  );
 }
+
 export default Maincontent;
