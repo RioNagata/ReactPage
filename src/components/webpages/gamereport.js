@@ -6,7 +6,7 @@ import compare from "../../image/reportcompare.png";
 import entries from "../../image/reportentries.png";
 import "react-slideshow-image/dist/styles.css";
 
-function Hiraganafun() {
+function Gamereport() {
   const { t } = useTranslation();
 
   const slideImages = [home, total, compare, entries];
@@ -46,6 +46,18 @@ function Hiraganafun() {
           <div className="smallh1">
             <p>{t("gamereport.date")}</p>
           </div>
+          <div className="smallh1">
+            <p>
+              Link:{" "}
+              <a
+                href="https://github.com/RioNagata/gamereport"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {t("vehicle.link")}
+              </a>
+            </p>
+          </div>
         </div>
       </div>
       <p className="backlink">
@@ -55,4 +67,4 @@ function Hiraganafun() {
   );
 }
 
-export default Hiraganafun;
+export default Gamereport;

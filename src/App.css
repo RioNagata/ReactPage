@@ -1,10 +1,31 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;  /* full height */
+}
+
+
+.pagecontent {
+  flex: 1;  /* fills available space, pushes footer down */
+}
+
 body {
   font-family: 'Inter', sans-serif;
   background-color: #f7f9fc;
   color: #333;
-  margin: 0;
-  padding: 0;
-  max-height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;   /* fill full screen height */
+}
+
+main, .main-content, .maincontent, .maincontent2 {
+  flex: 1;  /* makes content grow and push footer down */
 }
 
 .main-content,
@@ -25,6 +46,7 @@ body {
   margin-bottom: 20px;
   color: #2c3e50;
   text-align: center;
+  margin-top: 20px;
 }
 
 .projects {
@@ -94,32 +116,6 @@ body {
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
-
-.smallh1 {
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-  max-width: 600px;
-  text-align: left;
-  margin: 0 auto;
-}
-
-.backlink {
-  text-align: center;
-  margin-top: 30px;
-  font-weight: bold;
-}
-
-.backlink a {
-  color: #2980b9;
-  text-decoration: none;
-}
-
-.backlink a:hover {
-  color: #1abc9c;
-}
-
 @media (max-width: 768px) {
   .projects {
     flex-direction: column;
@@ -133,29 +129,26 @@ body {
   .slide-container {
     width: 100%;
   }
-
-  .smallh1 {
-    width: 90%;
-  }
 }
 
 .footer {
   background: #f8f9fa;
-  padding: 2rem 1rem;
+  padding: 2.5rem 2rem;   /* bigger padding around footer */
   font-size: 0.95rem;
   color: #333;
 }
 
 .footer-grid {
-  display: grid;
-  gap: 1.5rem;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;   /* keeps them centered */
+  gap: 6rem;                 /* ⬅️ increase space between columns */
   text-align: center;
 }
 
 .footer-grid h5 {
   font-size: 1.1rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
 }
 
 .footer-grid ul {
@@ -165,7 +158,7 @@ body {
 }
 
 .footer-grid li {
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.4rem;
 }
 
 .footer-grid a {
@@ -177,6 +170,13 @@ body {
   text-decoration: underline;
 }
 
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;       /* more spacing from main grid */
+  font-size: 0.85rem;
+  color: #666;
+}
+
 /* On larger screens, make it 4 columns */
 @media (min-width: 768px) {
   .footer-grid {
@@ -184,14 +184,6 @@ body {
     text-align: left;
   }
 }
-
-.footer-bottom {
-  text-align: center;
-  margin-top: 1.5rem;
-  font-size: 0.85rem;
-  color: #666;
-}
-
 
 /* Navbar Spacing */
 nav.navbar {
@@ -354,3 +346,106 @@ nav.navbar {
   height: 40px;
   margin-bottom: 0.5rem;
 }
+
+/* Video iframe container */
+.smallh1 iframe {
+  width: 100%;
+  height: 315px;
+  max-width: 560px;
+  border-radius: 12px;
+}
+
+/* Gamereport Page - Responsive Updates */
+
+/* Neo container (slider + video + text blocks) */
+.maincontent.neo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+/* Slide container */
+.slide-container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Slider images */
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Video container */
+.smallh1 iframe {
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
+  border-radius: 12px;
+}
+
+/* Text blocks */
+.smallh1 {
+  width: 90%;
+  max-width: 600px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  text-align: left;
+  margin: 0 auto;
+}
+
+/* Backlink styling */
+.backlink {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.backlink a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+.backlink a:hover {
+  color: #1abc9c;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .slide-container {
+    width: 100%;
+  }
+
+  .smallh1 {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .smallh1 iframe {
+    height: 200px; /* reduce height for tablets/mobiles */
+  }
+}
+
+@media (max-width: 480px) {
+  .smallh1 {
+    width: 95%;
+    padding: 12px;
+    font-size: 0.9rem;
+  }
+
+  .smallh1 iframe {
+    height: 180px; /* smaller for small phones */
+  }
+
+  .backlink a {
+    font-size: 0.9rem;
+  }
+}
+
