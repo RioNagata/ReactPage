@@ -17,10 +17,10 @@ function Footer() {
         <div>
           <h5 className="footertitle">{t("footer.projects")}</h5>
           <ul>
+            <li><a href="/gamereport">{t("footer.gamereport")}</a></li>
             <li><a href="/hiraganafun">{t("footer.hiragana")}</a></li>
             <li><a href="/vehicle">{t("footer.vehicle")}</a></li>
             <li><a href="/chat">{t("footer.chat")}</a></li>
-            <li><a href="/gamereport">{t("footer.gamereport")}</a></li>
           </ul>
         </div>
 
