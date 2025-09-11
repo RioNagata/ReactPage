@@ -41,9 +41,15 @@
         "back": "プロジェクト一覧に戻る"
     },
     "contact": {
-      "title": "連絡先",
-      "email": "メール: rionagata15@gmail.com",
-      "phone": "電話番号: 0414 010 915"
+      "title": "お問い合わせ",
+      "email": "メール: contact@example.com",
+      "phone": "電話: +61 414 010 915",
+      "formTitle": "メッセージを送る",
+      "success": "ありがとうございます！ メッセージは送信されました。",
+      "name": "名前",
+      "emailLabel": "メール",
+      "message": "メッセージ",
+      "submit": "送信"
     },
     "footer": {
       "menu": "メインメニュー",

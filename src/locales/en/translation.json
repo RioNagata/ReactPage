@@ -40,11 +40,6 @@
         "link": "Github Link",
         "back": "Back to Projects"
     },
-    "contact": {
-      "title": "Contact",
-      "email": "Email: rionagata15@gmail.com",
-      "phone": "Phone: 0414 010 915"
-    },
     "footer": {
       "menu": "Main Menu",
       "projects": "Projects",
@@ -63,6 +58,17 @@
       "vehicle": "Vehicle Booking Page",
       "chat": "ChatChannel",
       "gamereport": "Game Report"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "email": "Email: contact@example.com",
+      "phone": "Phone: 0414 010 915",
+      "formTitle": "Send a Message",
+      "success": "Thank you! Your message has been sent.",
+      "name": "Name",
+      "emailLabel": "Email",
+      "message": "Message",
+      "submit": "Send"
     }
   }
   
