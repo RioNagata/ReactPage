@@ -9,10 +9,10 @@ function Maincontent() {
     { skill: "HTML", image: "html.png", rating: "5" },
     { skill: "CSS", image: "css-3.png", rating: "4" },
     { skill: "Javascript(Node, React)", image: "js.png", rating: "4" },
-    { skill: "Database Related(MySQL, MongoDB)", image: "mysql1.png", rating: "3" },
+    { skill: "MySQL", image: "mysql1.png", rating: "4" },
     { skill: "Swift(Xcode)", image: "swift.png", rating: "3" },
-    { skill: "Git(Version control)", image: "git.png", rating: "3" },
-    { skill: "PHP", image: "php.png", rating: "4" }
+    { skill: "Git", image: "git.png", rating: "4" },
+    { skill: "PHP", image: "php.png", rating: "5" }
   ];
 
   const skillElements = skilllists.map(skill => (
