@@ -4,7 +4,7 @@
     "home": {
       "title": "Rio Nagata",
       "aboutTitle": "About Me",
-      "aboutText": "I am a 24-year-old with 3 years of school and self-taught programming experience. Since junior high school, I’ve been passionate about building websites and software both individually and with teams. I'm Japanese, have lived in Australia for seven years, and speak English, Japanese, and Tagalog natively.",
+      "aboutText": "I am a 24-year-old programmer with 5 years of combined academic, self-taught and professional experience. My passion for creating websites and software began in junior high school and has grown through both individual projects and collaborative team work. I hold a Bachelor of Information Technology from Griffith University and bring an international perspective, having lived in Australia for more than 10 years. I am fluent in English, Japanese, and Tagalog, which allows me to communicate effectively across diverse cultures and environments.",
       "programmingSkills": "Programming Skills",
       "programmingSkillsDesc": "These are the programming-related skills I’ve learned and used, rated from 1-5.",
       "otherSkills": "Other Skills",
@@ -61,7 +61,7 @@
     },
     "contact": {
       "title": "Contact Us",
-      "email": "Email: contact@example.com",
+      "email": "Email: rionagata@gmail.com",
       "phone": "Phone: 0414 010 915",
       "formTitle": "Send a Message",
       "success": "Thank you! Your message has been sent.",

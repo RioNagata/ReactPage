@@ -1,6 +1,7 @@
 import hiraganaFun from '../../image/IMG_3669.jpg'
 import vehicle from '../../image/vehicle1.png'
 import chat from '../../image/chat1.png'
+import gamereport from "../../image/reporthome.png";
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
@@ -15,11 +16,11 @@ function Projects(){
             <div className='projects'>
                 <div className='pbox'>
                     <Link to='/gamereport'>
-                        <img className='pimage' src={chat} alt="Game Report"/>
+                        <img className='pimage' src={gamereport} alt="Game Report"/>
                         <h4>{t("projects.gamereport")}</h4>
                     </Link>
                 </div>
-                
+
                 <div className='pbox'>
                     <Link to='/hiraganafun'>
                         <img className='pimage' src={hiraganaFun} alt="Hiragana fun"/>
