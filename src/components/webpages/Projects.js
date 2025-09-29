@@ -15,6 +15,13 @@ function Projects(){
             <h3 className=''>{t("projects.subtitle")}</h3>
             <div className='projects'>
                 <div className='pbox'>
+                    <Link to='/habitquest'>
+                        <img className='pimage' src={gamereport} alt="Habitquest"/>
+                        <h4>{t("projects.habitquest")}</h4>
+                    </Link>
+                </div>
+
+                <div className='pbox'>
                     <Link to='/gamereport'>
                         <img className='pimage' src={gamereport} alt="Game Report"/>
                         <h4>{t("projects.gamereport")}</h4>

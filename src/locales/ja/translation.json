@@ -60,6 +60,7 @@
       "gamereport": "Game Report",
       "about": "私について",
       "contacts": "連絡先",
+      "habitquest": "Habit Quest",
       "rights": "All Rights Reserved."
     },
     "projects": {
@@ -68,7 +69,17 @@
       "hiragana": "ひらがなファン",
       "vehicle": "車両予約ページ",
       "chat": "チャットチャンネル",
-      "gamereport": "ゲームレポート"
+      "gamereport": "ゲームレポート",
+      "habitquest": "Habit Quest"
+    },
+    "habitquest": {
+      "title": "Habit Quest",
+      "description": "このサイトは、自分の習慣をゲーム化するサイトです。習慣を設定して遂行するとEXPとゲーム内通貨を貰えてレベルアップをし、ショップでいろんなアイテムに交換するといったことができます。サイトは今のところ英語のみ対応しています。",
+      "type": "プロジェクトタイプ: ウェブサイト",
+      "date": "作成日: 2025年9月",
+      "link": "ギットハブリンク",
+      "link2": "サイトはこちらから",
+      "back": "プロジェクト一覧に戻る"
     }
   }
   

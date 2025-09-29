@@ -49,6 +49,7 @@
       "gamereport": "Game Report",
       "about": "About Me",
       "contacts": "Contacts",
+      "habitquest": "Habit Quest",
       "rights": "All rights reserved."
     },
     "projects": {
@@ -57,7 +58,8 @@
       "hiragana": "Hiragana Fun",
       "vehicle": "Vehicle Booking Page",
       "chat": "ChatChannel",
-      "gamereport": "Game Report"
+      "gamereport": "Game Report",
+      "habitquest": "Habit Quest"
     },
     "contact": {
       "title": "Contact Us",
@@ -69,6 +71,15 @@
       "emailLabel": "Email",
       "message": "Message",
       "submit": "Send"
+    },
+    "habitquest": {
+      "title": "Vehicle Booking Page",
+      "description": "This website turns habit-building into a game. You can assign experience points to each habit, and when you complete one, you level up, earn in-game currency, and use it to unlock themes and badges for the site.",
+      "type": "Project Type: Website",
+      "date": "Date Created: September 2025",
+      "link": "Github Link",
+      "link2": "Website Link",
+      "back": "Back to Projects"
     }
   }
   
