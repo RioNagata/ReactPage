@@ -74,7 +74,7 @@
     },
     "habitquest": {
       "title": "Vehicle Booking Page",
-      "description": "This website turns habit-building into a game. You can assign experience points to each habit, and when you complete one, you level up, earn in-game currency, and use it to unlock themes and badges for the site.",
+      "description": "This website turns habit-building into a game. You can assign experience points to each habit, and when you complete one, you level up, earn in-game currency, and use it to unlock themes and badges for the site. The programming language used for this site is HTML, CSS and React.",
       "type": "Project Type: Website",
       "date": "Date Created: September 2025",
       "link": "Github Link",
