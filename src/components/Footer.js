@@ -20,8 +20,6 @@ function Footer() {
             <li><a href="/habitquest">{t("footer.habitquest")}</a></li>
             <li><a href="/gamereport">{t("footer.gamereport")}</a></li>
             <li><a href="/hiraganafun">{t("footer.hiragana")}</a></li>
-            <li><a href="/vehicle">{t("footer.vehicle")}</a></li>
-            <li><a href="/chat">{t("footer.chat")}</a></li>
           </ul>
         </div>
 

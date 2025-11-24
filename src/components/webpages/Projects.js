@@ -35,20 +35,6 @@ function Projects(){
                     </Link>
                 </div>
 
-                <div className='pbox'>
-                    <Link to='/vehicle'>
-                        <img className='pimage' src={vehicle} alt="Vehicle booking"/>
-                        <h4>{t("projects.vehicle")}</h4>
-                    </Link>
-                </div>
-
-                <div className='pbox'>
-                    <Link to='/chat'>
-                        <img className='pimage' src={chat} alt="ChatChannel"/>
-                        <h4>{t("projects.chat")}</h4>
-                    </Link>
-                </div>
-
             </div>
         </div>
     </>

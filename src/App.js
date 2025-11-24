@@ -12,6 +12,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import "./i18n"; // add this line
 import 'bootstrap/dist/css/bootstrap.css';
+import Test from './components/webpages/test';
+import "@radix-ui/themes/styles.css";
+
 
 function App() {
   return (
@@ -28,6 +31,7 @@ function App() {
               <Route path="chat" element={<Chat />} />
               <Route path="gamereport" element={<GameReport />} />
               <Route path="habitquest" element={<Habitquest />} />
+              <Route path="test" element={<Test />} />
             </Route>
           </Routes>
         </BrowserRouter>
