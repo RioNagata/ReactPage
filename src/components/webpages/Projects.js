@@ -2,6 +2,8 @@ import hiraganaFun from '../../image/IMG_3669.jpg'
 import vehicle from '../../image/vehicle1.png'
 import chat from '../../image/chat1.png'
 import gamereport from "../../image/reporthome.png";
+import habitquest from "../../image/habi2.png";
+import officerhandbook from "../../image/OH2.png";
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
@@ -15,8 +17,15 @@ function Projects(){
             <h3 className=''>{t("projects.subtitle")}</h3>
             <div className='projects'>
                 <div className='pbox'>
+                    <Link to='/officer-handbook'>
+                        <img className='pimage' src={officerhandbook} alt="officer-handbook"/>
+                        <h4>{t("projects.oh")}</h4>
+                    </Link>
+                </div>
+
+                <div className='pbox'>
                     <Link to='/habitquest'>
-                        <img className='pimage' src={gamereport} alt="Habitquest"/>
+                        <img className='pimage' src={habitquest} alt="Habitquest"/>
                         <h4>{t("projects.habitquest")}</h4>
                     </Link>
                 </div>
