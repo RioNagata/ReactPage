@@ -15,7 +15,7 @@ import './App.css';
 import "./i18n"; // add this line
 import 'bootstrap/dist/css/bootstrap.css';
 import Test from './components/webpages/test';
-import "@radix-ui/themes/styles.css";
+
 
 
 function App() {
