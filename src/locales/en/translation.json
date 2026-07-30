@@ -4,11 +4,14 @@
     "home": {
       "title": "Rio Nagata",
       "aboutTitle": "About Me",
-      "aboutText": "I am a 24-year-old programmer with 5 years of combined academic, self-taught and professional experience. My passion for creating websites and software began in junior high school and has grown through both individual projects and collaborative team work. I hold a Bachelor of Information Technology from Griffith University and bring an international perspective, having lived in Australia for more than 10 years. I am fluent in English, Japanese, and Tagalog, which allows me to communicate effectively across diverse cultures and environments.",
+      "aboutText": "I'm a web developer with over a year of professional experience building and maintaining WordPress-based websites for Australian businesses, from custom Elementor/ACF page templates to PHP-powered analytics dashboards. I work comfortably across the stack — HTML, CSS, PHP, JavaScript, and MySQL on the code side, alongside WordPress, Gravity Forms, and automation tools like Zapier on the platform side. I enjoy solving problems that go beyond what off-the-shelf plugins can do, whether that's building custom reporting systems, automating bulk data workflows, or designing responsive layouts that align with a brand's identity. Currently seeking new opportunities where I can keep growing as a fullstack developer.",
       "programmingSkills": "Programming Skills",
       "programmingSkillsDesc": "These are the programming-related skills I’ve learned and used, rated from 1-5.",
+      "programmingSkills2": "WordPress Skills",
+      "programmingSkillsDesc2": "These are the WordPress-related skills I’ve learned and used, rated from 1-5.",
       "otherSkills": "Other Skills",
-      "otherSkillsDesc": "Skills outside programming that reflect my soft and professional capabilities."
+      "otherSkillsDesc": "Skills outside programming that reflect my soft and professional capabilities.",
+      "webMaintenance": "Web Maintenance"
     },
     "chat": {
       "title": "Chat Channel",
@@ -60,7 +63,8 @@
       "chat": "ChatChannel",
       "gamereport": "Game Report",
       "habitquest": "Habit Quest",
-      "oh": "Officer Handbook"
+      "oh": "Officer Handbook",
+      "portal-app": "GameStore Admin Portal App"
     },
     "contact": {
       "title": "Contact Us",
@@ -87,6 +91,15 @@
       "description": "Officer Handbook is a centralised workplace knowledge platform I built to improve communication and onboarding in organisations lacking clear documentation. It includes concise guides for tools like Slack, Asana, and Toggl, along with pages covering communication standards and company policies. The platform also features built-in messaging and quizzes to help teams learn, stay aligned, and collaborate more effectively.",
       "type": "Project Type: Website",
       "date": "Date Created: September 2025",
+      "link": "Github Link",
+      "link2": "Website Link",
+      "back": "Back to Projects"
+    },
+    "portal-app": {
+      "title": "GameStore Admin Portal App",
+      "description": "A full-stack customer intake and analytics platform built with Next.js, Prisma, and PostgreSQL, featuring authentication, real-time filtering, CSV export, and month-by-month data visualization.",
+      "type": "Project Type: Website",
+      "date": "Date Created: July 2026",
       "link": "Github Link",
       "link2": "Website Link",
       "back": "Back to Projects"
