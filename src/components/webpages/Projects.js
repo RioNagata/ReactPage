@@ -1,6 +1,4 @@
 import hiraganaFun from '../../image/IMG_3669.jpg'
-import vehicle from '../../image/vehicle1.png'
-import chat from '../../image/chat1.png'
 import gamereport from "../../image/reporthome.png";
 import habitquest from "../../image/habi2.png";
 import officerhandbook from "../../image/OH2.png";

@@ -14,7 +14,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import "./i18n"; // add this line
 import 'bootstrap/dist/css/bootstrap.css';
-import Test from './components/webpages/test';
 
 
 
@@ -35,7 +34,6 @@ function App() {
               <Route path="habitquest" element={<Habitquest />} />
               <Route path="officer-handbook" element={<OfficerHandbook />} />
               <Route path="portal-app" element={<PortalApp />} />
-              <Route path="test" element={<Test />} />
             </Route>
           </Routes>
         </BrowserRouter>

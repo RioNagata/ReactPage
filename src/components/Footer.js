@@ -17,6 +17,8 @@ function Footer() {
         <div>
           <h5 className="footertitle">{t("footer.projects")}</h5>
           <ul>
+            <li><a href="/portal-app">{t("footer.portal-app")}</a></li>
+            <li><a href="/officer-handbook">{t("footer.oh")}</a></li>
             <li><a href="/habitquest">{t("footer.habitquest")}</a></li>
             <li><a href="/gamereport">{t("footer.gamereport")}</a></li>
             <li><a href="/hiraganafun">{t("footer.hiragana")}</a></li>
